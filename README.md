@@ -14,8 +14,15 @@ A collection of Material Design input elements
     <link rel="import" href="../paper-styles/paper-styles.html">
 
 <style is="custom-style">
+  html, body {
+    font-family: "Roboto";
+    margin: 0;
+  }
+  section {
+    margin: 24px;
+  }
   paper-checkbox {
-    margin: 12px 0;
+    margin: 12px 12px 12px 0;
   }
   paper-toggle-button.orange {
     --paper-toggle-button-checked-bar-color:  var(--paper-orange-500);
@@ -50,7 +57,7 @@ A collection of Material Design input elements
     --paper-toggle-button-unchecked-ink-color: var(--paper-green-900);
   }
   paper-progress {
-    width: 30%;
+    margin: 0 12px;
   }
   paper-slider.blue {
     --paper-slider-knob-color: var(--paper-light-blue-500);
@@ -87,7 +94,7 @@ A collection of Material Design input elements
   </div>
 </section>
 
-<section  class="layout horizontal justified" style="margin: 32px 0">
+<section class="layout horizontal justified" style="margin: 32px 0">
   <paper-progress class="flex" value="800" min="100" max="1000"></paper-progress>
   <paper-progress class="flex" value="30" secondary-progress="70"></paper-progress>
   <paper-progress class="flex" indeterminate></paper-progress>
@@ -106,7 +113,11 @@ A collection of Material Design input elements
   </div>
 </section>
 
+<next-code-block></next-code-block>
+
 </template>
 </custom-element-demo>
 ```
 -->
+```
+```
