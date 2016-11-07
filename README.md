@@ -120,4 +120,5 @@ A collection of Material Design input elements
 ```
 -->
 ```
+<!-- Sample demo of paper-input-elements -->
 ```
